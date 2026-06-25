@@ -3,7 +3,7 @@ def header_home():
     logo_url="https://ik.imagekit.io/tp9rocwx79/auralogo.png"
     st.markdown(f'''
         <div style="text-align:center;"><img src="{logo_url}" alt="image" style = "height:100px;"/></div>
-        <h1 style="text-align:center; color:#E0E3FF">AURA<br>&nbsp;&nbsp;Track</h1>
+        <h1 style="text-align:center; color:#E0E3FF">AURA<br>&nbsp;&nbsp;Class</h1>
                 ''',unsafe_allow_html=True)
 
 def header_teacher():
