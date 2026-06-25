@@ -11,7 +11,7 @@ def style_bg_dashboard():
     st.markdown('''
                 <style>
                 .stApp{
-                    background:#E0e3ff !important;
+                    background:#dde1fd !important;
                 }
                 </style>
                 ''',unsafe_allow_html=True)
@@ -64,13 +64,24 @@ def style_layout():
                 button:hover ,button[kind="secondary"]:hover,button[kind="tertiary"]:hover {
                     transform:scale(1.05) !important;
                 }
+                hr{
+                    background:#ffa500 !important;
+                    
+                }                       
+        label[data-testid="stWidgetLabel"] {
+            color: #000000 !important; 
+        }
                 h2{
-                    color:#000f00 !important;
                     font-size:2rem !important;
                     font-family:'Climate Crisis' , sans-serif !important;
                     line-height:0.9 !important;
                     margin-bottom:0rem !important;
-                }
+                }    
+                </style>
+                ''',unsafe_allow_html=True)
+def streamlit_columns():
+    st.markdown('''
+                <style>
                 .stApp div[data-testid="stColumn"]{
                     background:#f4f5f7 !important;
                     padding:1.5rem !important;
@@ -78,8 +89,14 @@ def style_layout():
                     transition:transform 0.25s ease-in-out !important;
                 }
                 .stApp div[data-testid="stColumn"]:hover{
-                    transform:scale(1.05) !important;
-                    }
-                    
-                </style>
+                    transform:scale(1.05)
+                }
+               h2{
+                   color:#000000 !important;
+               }
+        </style>
                 ''',unsafe_allow_html=True)
+def header(text,color="black"):
+    st.markdown(f'''
+            <h2 style="color:{color};">{text}</h2>
+            ''',unsafe_allow_html=True)
