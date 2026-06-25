@@ -13,7 +13,7 @@ def header_teacher():
     with c1:
         st.markdown(f'''
         <div style="display:flex;flex-direction:row;gap:10px;align-items:center;justify-content:center;"><img src="{logo_url}" alt="image" style = "height:100px;display:inline;"/>
-        <h2 style="text-align:left;color:#5366ed;">AURA<br>Track</h2></div>      
+        <h2 style="text-align:left;color:#5366ed;">AURA<br>Class</h2></div>      
                 ''',unsafe_allow_html=True)
     with c2:
         if st.button("Go Back TO Home",type="secondary",key="BackHome",shortcut="Control+Backspace"):
