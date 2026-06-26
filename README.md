@@ -95,34 +95,6 @@ streamlit run app.py
 
 ---
 
-## 📸 Screenshots
-
-### Home
-
-<p align="center">
-<img src="screenshots/home.png" width="900">
-</p>
-
-### Teacher Dashboard
-
-<p align="center">
-<img src="screenshots/teacher.png" width="900">
-</p>
-
-### Student Dashboard
-
-<p align="center">
-<img src="screenshots/student.png" width="900">
-</p>
-
-### Attendance
-
-<p align="center">
-<img src="screenshots/attendance.png" width="900">
-</p>
-
----
-
 ## ⚡ Workflow
 
 ```text
@@ -149,16 +121,7 @@ Students View Attendance
 
 ---
 
-## 🎯 Future Improvements
 
-- Email Notifications
-- QR Attendance Backup
-- Live Camera Attendance
-- Analytics Dashboard
-- Mobile App
-- Attendance Export (PDF/Excel)
-
----
 
 ## 👨‍💻 Author
 
